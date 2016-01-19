@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+    tools:context="davidwang.tm.dwcorephoto.MixShowActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/material_blue_500"
+        />
+
+    <davidwang.tm.view.PullToZoomListView
+        android:id="@+id/mixlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="1dp"
+        android:divider="#eaeaea"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:listSelector="@android:color/transparent"
+        />
+
+
+</LinearLayout>
