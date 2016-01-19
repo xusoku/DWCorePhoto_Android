@@ -4,6 +4,7 @@
 3.列表图片点击，放大效果，和缩放效果。<br />
 4.网格图片点击，放大效果，和缩放效果。<br />
 5.增加列表混合布局<br />
+ADDDEDDDD
 如果有更多想法，联系我Q:232190315.
 # 效果图，单张点击
 ![](https://raw.githubusercontent.com/DavidWangTM/DWCorePhoto_Android/master/SingleShow.gif)
